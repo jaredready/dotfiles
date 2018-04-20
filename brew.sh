@@ -23,8 +23,11 @@ brew install homebrew/dupes/grep
 brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
 
+# Install latest Bash since Mac OS will never move past 3.x
 brew install bash
 echo "/usr/local/bin/bash" >> /etc/shells
+chsh -s /usr/local/bin/bash
+
 brew install bash-completion
 brew install homebrew/completions/brew-cask-completion
 

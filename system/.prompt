@@ -1,1 +1,4 @@
+if [[ -f /usr/local/etc/bash_completion.d/git-prompt.sh ]]; then
+    . /usr/local/etc/bash_completion.d/git-prompt.sh
+fi
 export PS1='\[\033[0;34m\]\T \w$(__git_ps1 " (%s)")\[\033[0m\]\n \$ '

@@ -1,0 +1,7 @@
+goback() {
+    if [[ $OLDPWD ]]; then
+        cd -
+    else
+        pwd
+    fi;
+};

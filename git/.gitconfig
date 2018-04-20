@@ -1,0 +1,6 @@
+[user]
+	name = Jared Ready
+	email = jared.ready1@gmail.com
+[core]
+	excludesfile = /Users/jaredready/.dotfiles/git/.gitignore_global
+	editor = /usr/bin/vim

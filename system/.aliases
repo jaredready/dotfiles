@@ -1,0 +1,7 @@
+alias ls="ls -Gp"
+alias ll="ls -lh"
+alias la="ls -a"
+alias lla="ls -lha"
+alias virtualenv3='~/Library/Python/3.6/bin/virtualenv'
+alias ..="cd .."
+alias ...=goback

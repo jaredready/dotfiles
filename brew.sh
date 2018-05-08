@@ -9,6 +9,8 @@ fi
 brew update && brew upgrade
 
 # Install command line utilties
+brew install terraform
+brew install awscli
 brew install coreutils
 brew install moreutils
 brew install findutils
